@@ -25,19 +25,7 @@ app.get('/:query', function(req, res) {
         res.send(datas);
     }
 
-    // dateTime = new Date(date);
-    // var timestamp = Math.floor(dateTime / 1000);
-    // var strdate = dateTime.toDateString();
-    // var dateTime = new Date();
-    //dateTime.toString()
-    // var stringdate = dateTime.toISOString();
-    //console.log('string date:', stringdate); // 
-    // console.log(timestamp);
-    //var data = { "unix": 1450137600, "natural": "December 15, 2015" }
 
-    // console.log('dateTime', dateTime);
-    // console.log('unixdate', parseInt(date));
-    //console.log('unixdate', typeof parseInt(date));
 
 });
 
